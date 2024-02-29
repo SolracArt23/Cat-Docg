@@ -1,0 +1,48 @@
+section {
+    text-align: center; /* Para centrar el contenido horizontalmente */
+    justify-content: center; /* Para centrar verticalmente */
+    align-items: center; /* Para centrar verticalmente */
+    height: 100vh; /* Para ocupar toda la altura de la ventana */
+    margin-top: 25%;
+    position: absolute;
+    left: 15%;
+
+}
+
+html, body, svg {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background:#000;
+}
+body {
+    overflow: hidden;
+}
+.text
+{
+    color: white;
+}
+
+#inputImage
+{
+    margin-left: 25%;
+    width: 250px;
+    height: 250px;    
+}
+.title
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+hr
+{
+    width: 100px;
+    margin-left: 50%;
+    color: black;
+}
+
+.description
+{
+    margin-top: 20px; /* Ajusta la distancia entre el título y el input */
+}
